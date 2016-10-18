@@ -10,5 +10,5 @@
 	// zookeeper, consumer group id, topic
 	# sbt "run-main SimpleConsumer localhost:2181 testGroup amazingTopic"
 	
-	// zookeeper, consumer group id, topicm thread count to perform
+	// zookeeper, consumer group id, topic thread count to perform
 	# sbt "run-main MultiThreadConsumer localhost:2181 testGroup amazingTopic 5"
